@@ -1,0 +1,29 @@
+{
+	"name": "async-get",
+	"version": "1.0.0",
+	"description": "Get the values at path of object (as per _.get) asynchronously",
+	"main": "async-get.js",
+	"scripts": {
+		"test": "node .test/basic-1.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/async-get"
+	},
+	"keywords": [
+		"get",
+		"async",
+		"promises",
+		"object",
+		"path"
+	],
+	"author": "rektide de la faye <rektide@voodoowarez.com>",
+	"license": "X11",
+	"@std/esm": {
+		"await": "true"
+	},
+	"devDependencies": {
+		"@std/esm": "^0.12.4",
+		"blue-tape": "^1.0.0"
+	}
+}
