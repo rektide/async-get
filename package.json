@@ -1,6 +1,6 @@
 {
 	"name": "async-get",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Get the values at path of object (as per _.get) asynchronously",
 	"main": "async-get.js",
 	"scripts": {

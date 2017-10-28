@@ -20,6 +20,9 @@ async function get(obj, pathArray, optionalDefaultValue, step= 0){
 	}
 
 	// get current path, increment step, await
+	if( pathArray.then) {
+		pathArray= await pathArray
+	}
 	let pathCur= pathArray[ step++]
 	if( pathCur&& pathCur.then){
 		pathCur= await pathCur;
