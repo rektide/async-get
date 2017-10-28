@@ -8,7 +8,7 @@ Async-get is an async-ified version of [Lodash's .get](https://lodash.com/docs/4
 
 # Example
 
-Given a **place** object which is promised of numerous promises,
+Given a **place** object which is comprised of numerous promises,
 
 ```js
 const placeVi= Promise.resolve({
